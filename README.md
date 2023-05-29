@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @PrateekG4994
-- 👀 I’m interested in Data Science,AI and Programming 
+- 👀 I’m interested in Java, Python, Machine Learning,AI and Programming 
 - 🌱 I’m currently Persuing MSC Comp. Sci. 
 - 💞️ I’m looking to collaborate
 - 📫 How to reach me 
