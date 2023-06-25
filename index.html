@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prateek Full-Stack Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(3, 3, 52);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(9, 9, 61);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(156, 156, 241);
+        font-size: 1.03rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.5px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 125px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .buttons{
+        padding: 20px;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 100%;
+      }
+      .purple {
+        color: rgb(149, 65, 228);
+      }
+      .text-grey {
+        color: grey;
+      }
+      #element {
+        color: rgb(149, 65, 228);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.5rem;
+        font-size: 1.5rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 75vw;
+        height: 2px;
+        margin: 65px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 50px;
+        width: 2px;
+        background-color: white;
+        margin: 0 130px;
+      }
+      .image-top {
+        width: 40px;
+        position: relative;
+        top: -45px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 10px;
+        right: 20px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 25px;
+        right: 20px;
+        color: grey;
+        width: 200px;
+      }
+      .thirdSection {
+        padding: 25px;
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .thirdSection h1{
+        font-size: 1.5rem;
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Prateek's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Blogs</a></li>
+            <li><a href="#first">Projects</a></li>
+            <li><a href="#second">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name <span class="purple">Prateek</span>
+          <div>and I am a Passinate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg21.png" alt style="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span id="first" class="text-grey">What I have done so far</span>
+        <h1 >Projects</h1>
+        <div  class="box">
+          <div class="vertical">
+            <img class="image-top" src="project.png" alt="" />
+            <div class="vertical-title">Sports Club Management(01/2021-04/2021)</div>
+            <div class="vertical-desc">
+              -- Bsc Computer Science Major Project, 
+              Third Year BSc CS Project on Sports Club Management using HTML,CSS PHP & SQL on Xampp Server
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Hotel Management System (02/2023)</div>
+            <div class="vertical-desc">
+            -- Personal Project, 
+            By using JAVA, MySQL on XAMPP Server
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Portfolio Website (02/2023)</div>
+            <div class="vertical-desc">
+              -- Personal Project, 
+              using HTML,CSS & Javascript 
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Voice Controlled Robot</div>
+            <div class="vertical-desc">
+              
+            </div>
+        </div>
+      </section>
+      <hr/>
+      <footer>
+
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "FULL STACK DEVELOPER",
+          "SOFTWARE ENGINEER",
+          "JAVA DEVELOPER",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
